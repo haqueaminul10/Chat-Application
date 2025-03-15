@@ -7,7 +7,7 @@ import Input from './components/input';
 
 const socket = io('http://localhost:4000');
 function App() {
-  const user = useRef(null);
+  const user = useRef('a');
 
   return (
     <>

@@ -1,0 +1,30 @@
+/* CHAT PART */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.chat-container {
+  background-color: aqua;
+}
+.chat-message {
+  padding: 7%;
+}
+
+/* MESSAGE PART */
+.own {
+  display: flex;
+  justify-content: end;
+}
+.own-message {
+  background-color: blue;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+.reciever-message {
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+}
